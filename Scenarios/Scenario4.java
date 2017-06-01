@@ -37,7 +37,7 @@ public class Scenario4 {
 
 		// Log in
 		try {
-			TwitterPOM.username(driver).sendKeys("Alokpushesback");
+			TwitterPOM.username(driver).sendKeys("QACinema");
 			TwitterPOM.password(driver).sendKeys("Alokpushesback.123");
 			TwitterPOM.confirmLogin(driver).click();
 			Assert.assertTrue(driver.getTitle().contains("Twitter"));
