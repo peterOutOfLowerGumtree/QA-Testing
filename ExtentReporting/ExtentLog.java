@@ -90,7 +90,7 @@ public class ExtentLog {
 			driver.get("https://twitter.com");
 			TimeUnit.SECONDS.sleep(2);
 			TwitterPOM.logInBtn(driver).click(); // Open login dialogue
-			TwitterPOM.username(driver).sendKeys("Alokpushesback"); // Username
+			TwitterPOM.username(driver).sendKeys("QACinema"); // Username
 			TwitterPOM.password(driver).sendKeys("Alokpushesback.123"); // Password
 			test.log(LogStatus.INFO, "User Info Entered");
 			TwitterPOM.confirmLogin(driver).click();
@@ -153,7 +153,7 @@ public class ExtentLog {
 			driver.get("https://twitter.com");
 			TimeUnit.SECONDS.sleep(2);
 			TwitterPOM.logInBtn(driver).click(); // Open login dialogue
-			TwitterPOM.username(driver).sendKeys("Alokpushesback"); // Username
+			TwitterPOM.username(driver).sendKeys("QACinema"); // Username
 			TwitterPOM.password(driver).sendKeys("Alokpushesback.123"); // Password
 			test.log(LogStatus.INFO, "User Info Entered");
 			TwitterPOM.confirmLogin(driver).click();
@@ -188,7 +188,7 @@ public class ExtentLog {
 			test.log(LogStatus.FAIL, "Photo Upload Unsuccessful");
 		}
 		
-		driver.get("https://twitter.com/Alokpushesback");
+		driver.get("https://twitter.com/QACinema");
 		try {
 			TwitterPOM.editProfile(driver).click();
 			TwitterPOM.editPic(driver).click();
@@ -241,7 +241,7 @@ public class ExtentLog {
 			driver.get("https://twitter.com");
 			TimeUnit.SECONDS.sleep(2);
 			TwitterPOM.logInBtn(driver).click(); // Open login dialogue
-			TwitterPOM.username(driver).sendKeys("Alokpushesback"); // Username
+			TwitterPOM.username(driver).sendKeys("QACinema"); // Username
 			TwitterPOM.password(driver).sendKeys("Alokpushesback.123"); // Password
 			test.log(LogStatus.INFO, "User Info Entered");
 			TwitterPOM.confirmLogin(driver).click();
