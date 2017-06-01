@@ -36,7 +36,7 @@ public class Scenario3 {
 
 		// Log in
 		try {
-			TwitterPOM.username(driver).sendKeys("Alokpushesback");
+			TwitterPOM.username(driver).sendKeys("QACinema");
 			TwitterPOM.password(driver).sendKeys("Alokpushesback.123");
 			TwitterPOM.confirmLogin(driver).click();
 			Assert.assertTrue(driver.getTitle().contains("Twitter"));
@@ -63,7 +63,7 @@ public class Scenario3 {
 	
 	@AfterClass
 	public static void revertChanges() {
-		driver.get("https://twitter.com/Alokpushesback");
+		driver.get("https://twitter.com/QACinema");
 		System.out.println("Redirect successful");
 		
 		// Remove profile photo - will only work if there is a profile photo
